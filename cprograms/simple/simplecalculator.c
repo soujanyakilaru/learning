@@ -6,8 +6,7 @@ int main()
 {
     char operator;
     float first,second,value;
-    printf("Simple Calculator\n");
-    printf("Enter the operator and two numbers \n");
+    printf("Simple Calculator. \n Please provide operator and two numbers with dot symbol.\n");
     scanf("%c %f %f ", &operator,&first, &second);
     switch (operator) {
     case '+': value = first + second;
